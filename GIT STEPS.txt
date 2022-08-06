@@ -1,0 +1,48 @@
+INITIALIZING
+https://git-scm.com/download/win
+1. Right-click > GIT BASH HERE
+2. git init
+
+
+=======================================================================
+.git/config
+configurations of local repo not linked to the "Remote Repository"
+
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+=======================================================================
+PUSHING FILE TO LOCAL REPO
+A- Stage Phase [conduct any required modification during this stage]
+	1. for the created file
+	2. check differences between the folder and the local repo using:
+		>> git status
+		! Coloured in red are the files not in sync.
+		! Coloured in green are files in sync.
+	3. to Add file to local repo:
+		>> git add test_file.c 		=====> to add certain file to the local repo.
+		>> git add .			=====> to add all files to the local repo.
+B- Commit Phase [after conducting any modification and getting to the final file version]
+		>>  git commit -m "V1"
+		-m 	= massage / name of the commit (V1)
+		"V1" 	= the name of commit/version of the repo
+=======================================================================
+AUTHENTICATION
+		>> git config --global user.email "****@*****.com"
+		>> git config --global user.name "******"
+=======================================================================
+=======================================================================
+=======================================================================
+REMOTE REPO
+=======================================================================
+=======================================================================
+=======================================================================
+Create new Repo on GITHUB website
+		>> git remote add origin https://github.com/MahmoudSafaan/ESLab.git
+		>> git branch -M main
+		>> git push -u origin main
+
