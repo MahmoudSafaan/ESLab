@@ -14,3 +14,9 @@ typedef enum
 {
     pin_1, pin_2, pin_3, pin_4, pin_5, pin_6, pin_7, pin_8
 }PinType;
+
+typedef enum
+{
+    input, output
+}Direction;
+
