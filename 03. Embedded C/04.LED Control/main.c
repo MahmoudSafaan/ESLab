@@ -4,7 +4,7 @@
  *  Created on: Aug 26, 2022
  *      Author: Mahmoud.Hamdy
  */
-
+#include <stdio.h>
 #include "TYPES_H.h"
 #include "REGISTER_ADDRESS_H.h"
 #include "MACROS_H.h"
