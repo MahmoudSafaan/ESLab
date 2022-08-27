@@ -7,7 +7,9 @@
 
 #ifndef MCAL_REGISTERS_ADDRESSES_H_
 #define MCAL_REGISTERS_ADDRESSES_H_
-
+// ******************************
+// what is SREG
+// ******************************
 #define SREG   *((volatile unsigned char*)0x5F)
 
 #define    PORTA    *((volatile uint8*) 0x3B)
